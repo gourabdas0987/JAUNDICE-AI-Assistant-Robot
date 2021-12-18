@@ -1,11 +1,6 @@
-""" JAUNDICE: AI Assistant robot with Arduino and Python
+""" ULTRON: AI Assistant robot with Arduino and Python
 
-author: ashraf minhaj
-mail: ashraf_minhaj@yahoo.com
-Last Edit: Nov 2020
 
-License: Copyright (C) Ashraf Minhaj.
-General Public License (GPL3+)
 """
 
 
@@ -18,11 +13,11 @@ import serial                     # for serial communication
 import pywhatkit                  # for more web automation
 
 # Declare robot name (Wake-Up word)
-robot_name = 'jaundice'
+robot_name = 'ULTRON'
 
 # random words list
-hi_words = ['hi', 'hello', 'yo baby', 'salam']
-bye_words = ['bye', 'tata', 'hasta la vista']
+hi_words = ['hi', 'hello', 'namaste', 'salam']
+bye_words = ['good bye', 'tata', 'see you soon']
 r_u_there = ['are you there', 'you there']
 
 # initilize things
